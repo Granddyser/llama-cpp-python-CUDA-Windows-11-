@@ -71,6 +71,7 @@ Keywords: llama-cpp-python, CUDA error, PyTorch, torch, nvcc, conda, pip install
     **组件选择示例**：
     
     ![VS2019 组件选择](images/image.png)
+
     *此截图显示了安装过程中需要选择的必要组件。*
 
 ### 1.3. 安装 CMake（系统级）
