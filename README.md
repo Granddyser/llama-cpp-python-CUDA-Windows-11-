@@ -68,7 +68,8 @@ Keywords: llama-cpp-python, CUDA error, PyTorch, torch, nvcc, conda, pip install
         *   `C++ ATL（适用于最新 v142 构建工具）`
         *   `C++ AddressSanitizer (C++ 地址消毒器)`
         *   `Just-In-Time 调试器`
-    **组件选择示例**：
+
+     **组件选择示例**：
     
     ![VS2019 组件选择](images/image.png)
 
@@ -302,7 +303,7 @@ Keywords: llama-cpp-python, CUDA error, PyTorch, torch, nvcc, conda, pip install
 
 复杂流程分步骤呈现（系统清理→环境检查→安装→验证）
 
-警告/提示使用醒目符号（⚠️/💡）
+警告/提示使用醒目符号（⚠️💡）
 
 文化适配：
 
