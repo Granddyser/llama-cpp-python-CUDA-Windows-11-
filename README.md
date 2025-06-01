@@ -63,6 +63,11 @@ Keywords: llama-cpp-python, CUDA error, PyTorch, torch, nvcc, conda, pip install
         *   `Windows 10 SDK (例如 10.0.19041.0)`
         *   **`Windows 11 SDK (例如 10.0.22000.0 或更新版) - 关键！`**
         *   `适用于 Windows 的 C++ CMake 工具`
+        *   `C++ 分析工具`
+        *   `C++ CMake 工具（适用于 Windows）`
+        *   `C++ ATL（适用于最新 v142 构建工具）`
+        *   `C++ AddressSanitizer (C++ 地址消毒器)`
+        *   `Just-In-Time 调试器`
     **组件选择示例**：
     
     ![VS2019 组件选择](images/image.png)
