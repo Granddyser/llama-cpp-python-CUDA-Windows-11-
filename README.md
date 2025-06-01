@@ -28,7 +28,7 @@ Keywords: llama-cpp-python, CUDA error, PyTorch, torch, nvcc, conda, pip install
     *   关闭所有终端和开发环境。
     *   打开文件资源管理器，在地址栏输入 `%TEMP%`，删除此文件夹内容（部分文件可能被锁定，可忽略）。
     *   输入 `%APPDATA%`，查找与 `pip` 或 `cmake` 相关的文件夹（如 `pip/cache`），删除其内容（谨慎操作）。
-    *   如有必要，删除旧的错误 Conda 环境（特别是未使用 `--prefix` 在项目文件夹内创建的环境）。
+    *   如有必要，删除之前创建但安装失败的 Conda 环境（特别是未使用 `--prefix` 在项目文件夹内创建的环境）。
 
 ## 1. 系统级先决条件检查和设置
 
@@ -64,9 +64,8 @@ Keywords: llama-cpp-python, CUDA error, PyTorch, torch, nvcc, conda, pip install
         *   **`Windows 11 SDK (例如 10.0.22000.0 或更新版) - 关键！`**
         *   `适用于 Windows 的 C++ CMake 工具`
         *   `C++ 分析工具`
-        *   `C++ CMake 工具（适用于 Windows）`
         *   `C++ ATL（适用于最新 v142 构建工具）`
-        *   `C++ AddressSanitizer (C++ 地址消毒器)`
+        *   `C++ AddressSanitizer`
         *   `Just-In-Time 调试器`
 
      **组件选择示例**：
