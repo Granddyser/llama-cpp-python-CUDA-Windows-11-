@@ -8,6 +8,7 @@ Keywords: llama-cpp-python, CUDA error, PyTorch, torch, nvcc, conda, pip install
 这是一份面向中文用户的分步指南，帮助大家在 Windows 上成功安装和运行支持 CUDA GPU 加速的 llama-cpp-python。本仓库整理了常见安装难点的权威解决方案，包括精确的版本要求、环境设置和故障排除技巧。
 之前我为英文用户整理了一份安装指南，多次帮助我本人顺利解决了各种安装问题。为了让中文社区的小伙伴们也能轻松避坑，我将内容翻译成中文并在这里分享。希望本指南对大家有所帮助，也欢迎反馈和补充！
 
+
 ## 🌟 本指南亮点
 
 *   **可删除的本地 Conda 环境**：在项目文件夹内创建环境便于清理（使用 `conda create --prefix ./env python=3.11`）。
