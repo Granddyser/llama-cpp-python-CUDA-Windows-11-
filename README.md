@@ -321,6 +321,8 @@ Keywords: llama-cpp-python, CUDA error, PyTorch, torch, nvcc, conda, pip install
 
 此翻译严格遵循原文技术细节，同时符合中文技术文档的表达习惯，确保用户能准确执行所有操作步骤。
 
+❗❗务必首先设置环境变量，然后安装正确支持 CUDA 的 PyTorch 版本——绝对不要在完成这些步骤前安装 requirements.txt❗❗
+
 
 *<small>我使用了Qwen和DeepSeek这两个模型进行翻译。如果发现错误或不恰当的表达，欢迎随时告知我。😊 </small>*
 
